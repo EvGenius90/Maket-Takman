@@ -22,7 +22,7 @@
 
 .cover {
   height: 940px;
-  background: url(/src/img/backimage.png) 70%/cover no-repeat;
+  background: url(../img/backimage.png) 70%/cover no-repeat;
   position: relative; }
   .cover .header {
     transition: 0.5s;
@@ -285,7 +285,7 @@
 
 .cottages {
   height: 940px;
-  background: url(/src/img/IMG_60691.png) 10%/cover no-repeat; }
+  background: url(../img/IMG_60691.png) 10%/cover no-repeat; }
   .cottages .container {
     max-width: 1785px;
     margin: 0 auto;
