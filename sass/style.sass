@@ -1,0 +1,749 @@
+*
+    box-sizing: border-box
+    
+
+.reset-style
+    list-style: none
+    margin: 0
+    padding: 0
+
+.reset-dicoration
+    text-decoration: none
+    color: white
+
+.click-Color
+    color: #8B8F92
+
+.more
+    background-color: white
+    width: 170px
+    height: 52px
+    padding: 15px 50px 
+    cursor: pointer
+
+.cover
+    height: 940px
+    background: url(/src/img/backimage.png) 70%/cover no-repeat
+    position: relative
+    .header
+        transition: 0.5s
+        margin-bottom: 166px
+        .container
+            max-width: 1920px
+            padding: 32px 80px
+            height: 128px
+            // border: 1px solid yellow
+        &__inner
+            display: flex
+            justify-content: space-between
+        &__left
+            display: flex
+        &__logo
+            margin-right: 60px
+        &__navigation
+            display: flex
+            align-items: center
+        &__list
+            display: flex
+            .header__list-li
+                margin-right: 50px
+                a
+                    font-family: 
+            .header__list-yellow-word
+                margin-right: 5px
+                a
+                    color: #FFCA86
+        &__right
+            display: flex
+            align-items: center
+            .socials
+                margin-right: 80px
+                a:not(:last-child)
+                    margin-right: 37px
+                img:first-child
+                    // height: 22px
+                .fa-brands
+                    // color: white
+                    // background-color: white
+                    font-size: 32px
+                .fa-brands:not(:last-child)
+                    margin-right: 35px
+            .btn-buy
+                width: 170px
+                height: 52px
+                border: 2px solid white
+                padding: 10px
+                color: white
+                font-family: 'Montserrat', sans-serif
+                font-size: 18px
+                line-height: 24px
+                cursor: pointer
+    .header:hover
+        background-color: #181F26
+        opacity: 0.9
+    .landing
+        width: 743px
+        height: 512px
+        // border: 1px solid white
+        position: absolute
+        left: 4%
+        &__title
+            color: white
+            font-family: 'Montserrat', sans-serif
+            font-weight: 700
+            font-size: 80px
+            line-height: 92px
+            margin: 0 0 20px 0
+        &__text
+            color: white
+            font-weight: 400
+            font-size: 18px
+            margin-bottom: 40px
+        &__more
+
+.services
+    overflow: hidden
+    position: relative
+    &__our
+        padding: 80px 0 0 80px
+        height: 380px
+        background-color: #181F26
+    &__title
+        color: white
+        font-family: 'Montserrat', sans-serif
+        font-size: 72px
+        margin: 0 0 20px 0
+    &__text
+        margin-bottom: 40px
+        color: white
+        font-size: 18px
+    &__more
+        margin-bottom: 60px
+    &__carousel
+        display: flex
+        position: relative
+        transition: 0.8s
+        left: 0
+        .slider-block
+            position: relative
+            width: 760px
+            height: 940px
+    &-block__title
+        position: absolute
+        color: white
+        font-family: 'Montserrat', sans-serif
+        font-size: 64px
+        top: 80px
+        left: 80px
+        margin: 0
+    &-block__text
+        position: absolute
+        top: 280px
+        left: 80px
+        margin: 0
+        color: white
+        font-family: 'Montserrat', sans-serif
+        font-size: 18px
+    &__images
+        width: clamp(50px, 41vw, 760px)
+        height: 940px
+        // position: relative
+    .arrow-left
+        width: 40px
+        height: 80px
+        // border: 1px solid green
+        position: absolute
+        top: 800px
+        left: 50px
+        cursor: pointer
+        .upper
+            position: absolute
+            left: 20px
+            top: 4px
+            border-radius: 30px
+            background: white
+            height: 45px
+            width: 5px
+            transform: rotate(50deg)
+        .lower
+            position: absolute
+            left: 20px
+            bottom: 4px
+            border-radius: 30px
+            background: white
+            height: 45px
+            width: 5px
+            transform: rotate(-50deg)
+    .arrow-right
+        width: 40px
+        height: 80px
+        position: absolute
+        top: 800px
+        right: 50px
+        cursor: pointer
+        .upper
+            position: absolute
+            left: 20px
+            top: 4px
+            border-radius: 30px
+            background: white
+            height: 45px
+            width: 5px
+            transform: rotate(-50deg)
+        .lower
+            position: absolute
+            left: 20px
+            bottom: 4px
+            border-radius: 30px
+            background: white
+            height: 45px
+            width: 5px
+            transform: rotate(50deg)
+
+.block-information
+    background: #181F26
+    padding: 80px 0 0 80px
+    height: 412px
+    &__title
+        font-family: 'Montserrat', sans-serif
+        font-size: 72px
+        color: white
+        margin: 0 0 20px 0
+    &__text
+        font-size: 18px
+        color: white
+        margin-bottom: 40px
+    &__more
+        padding: 15px 30px
+        width: 220px
+        font-size: 18px
+        color: #181F26
+
+.block-information-afisha
+    height: 412px
+    background: white
+    padding: 80px 0 0 80px
+    &__title
+        font-family: 'Montserrat', sans-serif
+        font-size: 72px
+        margin: 0 0 20px 0
+    &__text
+        font-size: 18px
+        margin-bottom: 40px
+    &__more
+        border: 2px solid black
+
+.afisha
+    position: relative
+    overflow: hidden
+    &__block
+        display: flex
+        position: relative
+        transition: all 0.8s
+        left: 0
+        // max-width: 1920px
+        
+    &__images
+        width: clamp(50px, 41vw, 760px)
+
+        height: 940px
+    &__arrow-left
+        width: 40px
+        height: 80px
+        position: absolute
+        top: 465px
+        left: 50px
+        cursor: pointer
+        .upper
+            position: absolute
+            left: 20px
+            top: 4px
+            border-radius: 30px
+            background: white
+            height: 45px
+            width: 5px
+            transform: rotate(50deg)
+        .lower
+            position: absolute
+            left: 20px
+            bottom: 4px
+            border-radius: 30px
+            background: white
+            height: 45px
+            width: 5px
+            transform: rotate(-50deg)
+    &__arrow-right
+        position: absolute
+        width: 40px
+        height: 80px
+        top: 465px
+        right: 50px
+        cursor: pointer
+        .upper
+            position: absolute
+            left: 20px
+            top: 4px
+            border-radius: 30px
+            background: white
+            height: 45px
+            width: 5px
+            transform: rotate(-50deg)
+        .lower
+            position: absolute
+            left: 20px
+            bottom: 4px
+            border-radius: 30px
+            background: white
+            height: 45px
+            width: 5px
+            transform: rotate(50deg)
+
+.cottages
+    height: 940px
+    background: url(/src/img/IMG_60691.png) 10%/cover no-repeat
+    .container
+        max-width: 1785px
+        margin: 0 auto
+        padding: 80px 15px 0 15px
+    &__title
+        font-weight: 700
+        font-size: 72px
+        color: white
+        margin: 0 0 20px 0
+    &__text
+        color: white
+        font-size: 18px
+        margin-bottom: 40px
+    &__more
+        padding: 15px 50px
+        width: 200px
+        color: #171B0E
+        font-size: 18px
+
+.information-work
+    display: flex
+    &__way
+        padding: 80px 0 0 80px
+        width: 950px
+        height: 366px
+    &__way__title
+        font-size: 72px
+        margin: 0
+        line-height: 80px
+    &__way__hr
+        width: 470px
+        margin: 0 0 30px 0
+    &__work-schedule
+        background: #181F26
+        height: 366px
+        width: 962px
+        padding: 80px 0 0 80px
+    &__work-schedule__title
+        color: white
+        font-size: 72px
+        margin: 0 0 20px 0
+    &__days
+        width: 500px
+        display: flex
+        flex-wrap: wrap
+        color: white
+        .days-m-right:nth-child(odd)
+            margin-right: 53px
+        .administration
+            margin-bottom: 10px
+
+.block-map
+    // width: 1900px
+    &__map
+        margin: 0 auto
+        max-width: 1920px
+
+.footer
+    display: flex
+    &__Terms-of-use
+        background: #181F26
+        width: 965px
+        height: 356px
+        padding: 80px 0 0 80px
+    &__Terms-of-use__block__text
+        color: white
+    .block__text__border-first
+        max-width: 280px
+        border-block-end: 1px solid
+        margin-bottom: 5px
+    .block__text__border-second
+        max-width: 390px
+        border-block-end: 1px solid
+        margin-bottom: 24px
+    &__contacts
+        padding: 80px 0 0 80px
+        width: 965px
+    &__contacts__block
+    &__contacts__block__title
+        font-size: 72px
+        margin: 0 0 20px 0
+    &__contacts__block__text:not(:last-child)
+        margin-bottom: 5px
+        
+
+@media (max-width: 1604px)
+    .container
+        width: 1180px
+        margin: 0 auto
+
+    .cover
+        .header
+            .container
+                padding: 32px 0
+            &__logo
+                margin-right: 20px
+            &__navigation
+            &__list
+                .header__list-li
+                    margin-right: 20px
+            &__right
+                .socials
+                    margin-right: 40px
+                    a
+                        margin-right: 25px
+                        img
+                            height: 16px
+                .btn-buy
+                    padding: 0
+
+    .services
+        &__carousel
+            .slider-block
+                height: 770px
+        &-block__title
+            font-size: 45px
+        &__images
+            height: 100%
+
+        
+@media ( max-width: 1199px )
+    .container
+        width: 840px
+
+    .cover
+        .header:hover
+            background: none
+            position: relative
+            opacity: 1
+        .header
+            .container
+            &__inner
+            &__left
+            &__right
+                .btn-buy
+                    margin-right: 60px
+                .burger
+                    cursor: pointer
+                    .span
+                        display: block
+                        background: white
+                        width: 50px
+                        height: 4px
+                        border-radius: 20px
+                        transition: 1s
+                    .span:not(:last-child)
+                        margin-bottom: 20px
+            .burger__active
+                position: fixed
+                right: 36px
+                z-index: 1
+                .span:nth-child(2)
+                    display: none
+                .span:nth-child(1)
+                    transform: rotate(50deg)
+                    margin-bottom: -3px
+                    margin-right: 10px
+                    width: 34px
+                .span:nth-child(3)
+                    transform: rotate(-50deg)
+                    margin-bottom: -3px
+                    margin-right: 10px
+                    width: 34px
+            .header__navigation-active
+                display: block
+            &__navigation
+                display: none
+                position: fixed
+                top: 0
+                right: 0
+                height: 468vh
+                width: 475px
+                background: #181F26
+                padding: 32px 0 0 32px
+                z-index: 1
+                .header__list
+                    display: block
+                    .header__list-li
+                        margin-bottom: 20px
+                        font-size: 18px
+        .landing
+            &__title
+                font-size: 64px
+            &__text
+                font-size: 16px
+            &__more
+                width: 160px
+                height: 48px
+
+    .services
+        &__our
+            padding: 60px 0 0 60px
+            height: 298px
+        &__title
+            font-size: 48px
+        &__text
+            font-size: 16px
+        &__more
+            width: 160px
+            height: 48px
+            margin-bottom: 0
+        &__carousel
+            .slider-block
+                width: 580px
+                img
+                    width: 580px
+        .arrow-left
+            top: 640px
+        .arrow-right
+            top: 640px
+
+    .block-information
+        height: 318px
+        &__title
+            font-size: 48px
+        &__text
+            font-size: 16px
+        &__more
+            width: 200px
+            height: 48px
+            padding: 12px 0 0 30px
+
+    .block-information-afisha
+        height: 318px
+        &__title
+            font-size: 48px
+        &__text
+            font-size: 16px
+        &__more
+            width: 160px
+            height: 48px
+            padding: 12px 0 0 40px
+
+    .afisha
+        &__block
+        &__images
+            width: 580px
+
+    .cottages
+        .container
+        &__title
+            font-size: 48px
+        &__text
+            font-size: 16px
+        &__more
+            width: 180px
+            height: 48px
+            padding: 10px 0 0 35px
+
+    .information-work
+        display: block
+        &__way
+            width: 100%
+            height: 260px
+            padding: 60px 0 0 60px
+            // border: 1px solid black
+        &__way__title
+            font-size: 48px
+        &__way__hr
+            width: 315px
+        &__way__text
+            font-size: 16px
+        &__work-schedule
+            width: 100%
+            height: 260px
+            padding: 60px 0 0 60px
+        &__work-schedule__title
+            font-size: 48px
+        &__days
+
+    .block-map
+        height: 820px
+
+    .footer
+        display: block
+        &__Terms-of-use
+            width: auto
+        &__contacts
+            width: auto
+
+@media ( max-width: 880px )
+    .container
+        width: clamp(327px, 70vw, 640px)
+
+    .cover
+        height: 468px
+        .header
+            margin-bottom: 10px
+            .container
+                margin: 0 auto
+                padding: 16px 0 0 24px
+            &__inner
+            &__right
+                .socials
+                    display: none
+                .socials-active
+                    display: block
+                    position: fixed
+                    z-index: 1
+                    top: 440px
+                    right: 0
+                    height: 20px
+                    margin-right: 50px
+                .btn-buy
+                    display: none
+                    width: 140px
+                    height: 30px
+                .btn-buy-active
+                    display: block
+                    position: fixed
+                    z-index: 1
+                    top: 350px
+                    right: 0
+                    padding: 0 0 0 20px
+                    font-size: 12px
+                    margin-right: 80px
+            &__navigation
+                width: 250px
+        .landing
+            width: 325px
+            &__title
+                font-size: 28px
+                line-height: 36px
+            &__text
+                font-size: 12px
+            &__more
+                width: 120px
+                height: 30px
+                padding: 5px 0 0 20px 
+
+    .services
+        &__our
+            padding: 32px 0 0 32px
+            height: 174px
+        &__title
+            font-size: 24px
+        &__text
+            font-size: 12px
+        &__more
+            width: 120px
+            height: 30px
+            padding: 5px 0 0 20px
+        &__carousel
+            .slider-block
+                // width: 285px
+                height: 380px
+                .services__images
+                    height: 380px
+                    width: 285px
+        &-block__title
+            font-size: 24px
+        &-block__text
+            font-size: 12px
+            top: 140px
+        .arrow-left
+            top: 300px
+            left: 10px
+        .arrow-right
+            top: 300px
+            right: 20px
+
+    .block-information
+        padding: 32px 0 0 32px
+        height: 275px
+        &__title
+            font-size: 32px
+        &__text
+            font-size: 12px
+        &__more
+            width: 180px
+            height: 30px
+            padding: 4px 0 0 20px
+
+    .block-information-afisha
+        height: 275px
+        padding: 32px 0 0 32px
+        &__title
+            font-size: 32px
+        &__text
+            12px
+        &__more
+            width: 120px
+            height: 30px
+            padding: 4px 0 0 20px
+            
+
+    .afisha
+        &__block
+        &__images
+            height: 380px
+        &__arrow-left
+            top: 155px
+        &__arrow-right
+            top: 155px
+
+    .cottages
+        height: 375px
+        .container
+        &__title
+            font-size: 24px
+        &__text
+            font-size: 12px
+        &__more
+            width: 120px
+            height: 30px
+            padding: 5px
+
+    .information-work
+        &__way
+            padding: 31px 0 0 24px
+        &__work-schedule
+            padding: 31px 0 0 24px
+            height: 209px
+            &__title
+                font-size: 24px
+                margin: 0 0 10px 0
+        &__days
+            width: 370px
+            font-size: 12px
+            .days-m-right:nth-child(odd)
+                margin-right: 9px
+
+    .block-map
+        height: 475px
+        &__map
+            height: 100%
+
+    .footer
+        &__Terms-of-use
+            padding: 32px 0 0 32px
+            height: 225px
+            &__block
+                &__text
+                    font-size: 12px
+                .block__text__border-first
+                    width: 210px
+                .block__text__border-second
+                    width: 293px
+        &__contacts
+            padding: 32px 0 32px 32px
+            &__block
+                &__title
+                    font-size: 24px
+                    line-height: 30px
+                &__text
+                    font-size: 12px
